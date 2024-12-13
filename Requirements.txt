@@ -1,0 +1,12 @@
+# Core dependencies
+pandas==1.4.4     
+numpy==1.21.2       
+
+# Machine learning and model evaluation
+scikit-learn==1.0.2
+
+# Text preprocessing and natural language processing
+nltk==3.6.7      
+
+# Visualization tools
+matplotlib==3.5.1   

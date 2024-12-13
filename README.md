@@ -5,10 +5,10 @@ This project uses Natural Language Processing (NLP) techniques to classify news 
 
 ## Features
 
-	•	**Text Preprocessing:** Includes tokenization, stopword removal, and lemmatization.
-	•	**Feature Extraction:** Converts textual data into numerical representations using TF-IDF Vectorization.
-	•	**Model Comparison:** Explored and evaluated several models including Decision Tree, Random Forest, Naive Bayes, and XGBoost.
-	•	**Final Model:** Selected Logistic Regression for its superior performance, achieving a 93% accuracy on the training dataset.
+- **Text Preprocessing:** Includes tokenization, stopword removal, and lemmatization.
+- **Feature Extraction:** Converts textual data into numerical representations using TF-IDF Vectorization.
+- **Model Comparison:** Explored and evaluated several models including Decision Tree, Random Forest, Naive Bayes, and XGBoost.
+- **Final Model:** Selected Logistic Regression for its superior performance, achieving a 93% accuracy on the training dataset.
 
 
 ## Technologies Used
@@ -30,39 +30,39 @@ The project uses the following CSV files:
 
 ## Workflow Overview
 
-	1.	**Preprocessing:**
-	•	Converted text to lowercase.
-	•	Removed special characters and stopwords.
-	•	Tokenized text and performed lemmatization using NLTK’s WordNetLemmatizer.
+1.	**Preprocessing:**
+- Converted text to lowercase.
+- Removed special characters and stopwords.
+- Tokenized text and performed lemmatization using NLTK’s WordNetLemmatizer.
 
-	2.	**Feature Engineering:**
-	•	Applied TF-IDF Vectorization to transform text into numerical data.
+2.	**Feature Engineering:**
+- Applied TF-IDF Vectorization to transform text into numerical data.
 
-	3.	**Model Training and Evaluation:**
-	•	Experimented with multiple models:
-	•	Decision Tree
-	•	Random Forest
-	•	Naive Bayes
-	•	XGBoost
-	•	Final Model: Logistic Regression with 93% accuracy on the training dataset.
+3.	**Model Training and Evaluation:**
+- Experimented with multiple models:
+- Decision Tree
+- Random Forest
+- Naive Bayes
+- XGBoost
+- Final Model: Logistic Regression with 93% accuracy on the training dataset.
 
-	4.	**Prediction:**
-	•	Used the trained model to predict labels for test data in testing_data_lowercase_nolabels.csv.
-	•	Results saved in testing_data_lowercase_nolabels_G3.csv.
+4.	**Prediction:**
+- Used the trained model to predict labels for test data in testing_data_lowercase_nolabels.csv.
+- Results saved in testing_data_lowercase_nolabels_G3.csv.
 
 
 ## Results
 
 The project achieved the following:
-	•	**93% Accuracy** on the training dataset.
-	•	Effective feature extraction using TF-IDF and preprocessing with NLP techniques.
-	•	Logistic Regression selected as the final model for its balance of simplicity and performance.
+- **93% Accuracy** on the training dataset.
+- Effective feature extraction using TF-IDF and preprocessing with NLP techniques.
+- Logistic Regression selected as the final model for its balance of simplicity and performance.
 
 
 ## Project Structure
 
-.
 ├── Archive/                  # Folder containing intermediate working files.  
+├── NLPG3.pptx               # Team presentation  
 ├── main.ipynb                # Final implementation notebook.  
 ├── training_data_lowercase.csv  
 ├── testing_data_lowercase_nolabels.csv  

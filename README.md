@@ -14,18 +14,20 @@ This project uses Natural Language Processing (NLP) techniques to classify news 
 ## Technologies Used
 
 This project utilizes the following libraries and tools:
-	•	**Python:** For the end-to-end implementation.
-	•	**Pandas and NumPy:** For data manipulation and numerical computations.
-	•	**scikit-learn:** For feature extraction, model training, and evaluation.
-	•	**NLTK:** For advanced text preprocessing, including tokenization and lemmatization.
+
+- **Python:** For the end-to-end implementation.
+- **Pandas and NumPy:** For data manipulation and numerical computations.
+- **scikit-learn:** For feature extraction, model training, and evaluation.
+- **NLTK:** For advanced text preprocessing, including tokenization and lemmatization.
 
 
 ## Dataset
 
 The project uses the following CSV files:
-	•	**training_data_lowercase.csv:** Contains labeled training data used to train the models.
-	•	**testing_data_lowercase_nolabels.csv:** Contains unlabeled test data used for evaluation.
-	•	**testing_data_lowercase_nolabels_G3.csv:** Contains test data with predicted labels from the trained model.
+
+- **training_data_lowercase.csv:** Contains labeled training data used to train the models.
+- **testing_data_lowercase_nolabels.csv:** Contains unlabeled test data used for evaluation.
+- **testing_data_lowercase_nolabels_G3.csv:** Contains test data with predicted labels from the trained model.
 
 
 ## Workflow Overview
